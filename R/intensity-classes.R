@@ -9,7 +9,7 @@ NULL
 #==============================================================================3
 
 #------------------------------------------------------------------------------#
-#' Construct data mappings.
+#' Construct data mappings
 #'
 #' Data mappings describe how variables in the data are mapped to standard names
 #' used throughout \code{epiphy}.
@@ -255,7 +255,7 @@ init_intensity <- function(data, mapping, keep_only_std, type) {
 }
 
 #------------------------------------------------------------------------------#
-#' Construct count, incidence and severity objects.
+#' Construct count, incidence and severity objects
 #'
 #' \code{count()}, \code{incidence()} and \code{severity()} create eponym
 #' objects. All of these classes inherit from the base class \code{intensity}.
@@ -264,7 +264,7 @@ init_intensity <- function(data, mapping, keep_only_std, type) {
 #' \code{incidence} reads disease incidence data from a data frame and return an
 #' incidence object. All of these classes inherit from \code{intensity} class.
 #' \itemize{
-#'     \item count: Each sampling unit contains from 0 to theoreticaly an infinity of data.
+#'     \item count: Each sampling unit contains from 0 to theoretically an infinity of data.
 #'     Number are positive integers.
 #'     \item incidence: Each sampling unit contains an number of diseased plants,
 #'     ranging from 0 to \code{n} which is the total amount of plants per sampling
@@ -329,7 +329,7 @@ init_intensity <- function(data, mapping, keep_only_std, type) {
 #' @param mapping A \code{mapping} object, created with \code{mapping()} or
 #'     \code{mapping_()} functions. ... A vector with all the corresponding variables. The different
 #'   elements can be named (names of the elements) of the data frame in the
-#'   incidence object), or unamed. In the latter case, elements must be
+#'   incidence object), or unnamed. In the latter case, elements must be
 #'   correctly ordered, i.e. x, y, z, t, r and then n. If variables in NULL,
 #'   then only the 6 first ... will be take into account in the following (1, 2,
 #'   ...), i.e. the id of the value. All the 'parameters' need to be specified.
@@ -346,17 +346,17 @@ init_intensity <- function(data, mapping, keep_only_std, type) {
 #'     \item The time.
 #'     \item Is it georeferenced (TRUE/FALSE)
 #'     \item Are there any NA data (TRUE/FALSE)
-#'     \item Is it a complet array (TRUE/FALSE)? A complete array means that all the recorded values allow to
-#'     display an array (even if some data are not available), but this was explicitelly specified. To
+#'     \item Is it a complete array (TRUE/FALSE)? A complete array means that all the recorded values allow to
+#'     display an array (even if some data are not available), but this was explicitly specified. To
 #'     complete a dataset, just use \code{complete(data)}. You can also remove NA, which is necessary to use
-#'     some analysis technics, using \code{replaceNA(data)} or \code{replace.na(data)}. Note that using both
+#'     some analysis techniques, using \code{replaceNA(data)} or \code{replace.na(data)}. Note that using both
 #'     commands will results in modifying the original data sets which will be specified.
 #' }
 #'
 #'
 #' @examples
 #' ## Create intensity objects
-#' # Implicite call: The variable mapping does not need to be specified if the
+#' # Implicit call: The variable mapping does not need to be specified if the
 #' # column names of the input data frame follow the default names.
 #' colnames(tomato_tswv$field_1929) # Returns c("x", "y", "t", "i", "n")
 #' my_incidence_1 <- incidence(tomato_tswv$field_1929)
@@ -451,7 +451,7 @@ severity_data <- function(data, mapping, keep_only_std = TRUE) {
 #==============================================================================#
 
 #------------------------------------------------------------------------------#
-#' Test if an object is of class \code{intensity} or one of its subclasses.
+#' Test if an object is of class \code{intensity} or one of its subclasses
 #'
 #' Test if an object is of class \code{intensity} or one of its subclasses
 #' (i.e. \code{count}, \code{incidence} or \code{severity}).
@@ -519,9 +519,9 @@ print.intensity <- function(x, ...) {
 summary.intensity <- function(object, ...) summary(object$data)
 
 #------------------------------------------------------------------------------#
-#' Coerce to a data frame.
+#' Coerce to a data frame
 #'
-#' Functions to coerce an \code{intensity} object to a data frame.
+#' Functions to coerce an \code{intensity} object to a data frame
 #'
 #' @param x An \code{intensity} object.
 #' @inheritParams base::as.data.frame
@@ -544,7 +544,7 @@ as.data.frame.intensity <- function(x, row.names = NULL, optional = FALSE, ...,
 }
 
 #------------------------------------------------------------------------------#
-#' Existing variable mappings.
+#' Existing variable mappings
 #'
 #' Get or set existing variable mappings.
 #'
@@ -604,7 +604,7 @@ dim.intensity <- function(x) lengths(x$struct)
 #==============================================================================#
 
 #------------------------------------------------------------------------------#
-#' Regroup observational data into even clumps of individuals.
+#' Regroup observational data into even clumps of individuals
 #'
 #' This function provides a easy way to regroup recorded data into groups of
 #' same number of individuals.
@@ -732,7 +732,7 @@ clump.intensity <- function(object, unit_size, fun = sum,
 }
 
 #------------------------------------------------------------------------------#
-#' Divide into groups and reassemble.
+#' Divide into groups and reassemble
 #'
 #' Divide into groups and reassemble.
 #'
@@ -847,7 +847,7 @@ split.intensity <- function(x, f, drop = FALSE, ..., by, unit_size) {
 # TODO: Doc and clean below
 
 #------------------------------------------------------------------------------#
-#' To go to higher level in the hierarchy.
+#' To go to higher level in the hierarchy
 #'
 #' This function transforms the current numeric vector or \code{intensity} data
 #' set into a "simplified black and white image" of this same data set: every

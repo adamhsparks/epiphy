@@ -3,7 +3,7 @@
 \docType{data}
 \name{tobacco_viruses}
 \alias{tobacco_viruses}
-\title{Incidence of tobacco plants infected with viruses.}
+\title{Incidence of tobacco plants infected with viruses}
 \format{
 A data frame with 75 rows and 2 variables:
 \tabular{rll}{

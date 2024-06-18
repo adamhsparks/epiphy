@@ -5,7 +5,7 @@
 NULL
 
 #------------------------------------------------------------------------------#
-#' Spatial hierarchy analysis.
+#' Spatial hierarchy analysis
 #'
 #' The manner in which the data are collected provides information about
 #' aggregation of disease at different levels in a spatial hierarchy (Hughes et

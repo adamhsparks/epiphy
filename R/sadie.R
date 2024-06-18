@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------#
-#' Spatial Analysis by Distance IndicEs (SADIE).
+#' Spatial Analysis by Distance IndicEs (SADIE)
 #'
 #' \code{sadie} performs the SADIE procedure. It computes different indices and
 #' probabilities based on the distance to regularity for the observed spatial

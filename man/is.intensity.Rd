@@ -5,7 +5,7 @@
 \alias{is.count}
 \alias{is.incidence}
 \alias{is.severity}
-\title{Test if an object is of class \code{intensity} or one of its subclasses.}
+\title{Test if an object is of class \code{intensity} or one of its subclasses}
 \usage{
 is.intensity(x)
 

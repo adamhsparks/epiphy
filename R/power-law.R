@@ -5,7 +5,7 @@
 NULL
 
 #------------------------------------------------------------------------------#
-#' Taylor's and binary power laws.
+#' Taylor's and binary power laws
 #'
 #' Assesses the overall degree of heterogeneity in a collection of data sets at
 #' the sampling-unit scale.
@@ -236,7 +236,7 @@ plot.power_law <- function(x, ..., scale = c("logarithmic", "linear"),
 #==============================================================================#
 
 #------------------------------------------------------------------------------#
-#' Easily switch between different power law formulations.
+#' Easily switch between different power law formulations
 #'
 #' \code{a2a} was designed to avoid headaches that are likely to occur when
 #' working with different formulations of the binomial power law analysis.
@@ -256,7 +256,7 @@ plot.power_law <- function(x, ..., scale = c("logarithmic", "linear"),
 #'     parameter to be converted ("Ai", "ai", "AI" or "aI"), the slope
 #'     ("slope"), and the number of individual per sampling unit ("n").
 #' @param from Kind of the input intercept parameter ("Ai", "ai", "AI" or "aI").
-#' @param to Desired kind for the ouput intercept parameter ("Ai", "ai", "AI" or
+#' @param to Desired kind for the output intercept parameter ("Ai", "ai", "AI" or
 #'     "aI").
 #' @param slope Slope parameter.
 #' @param n Number of individuals per sampling unit.

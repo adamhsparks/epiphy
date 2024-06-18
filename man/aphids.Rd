@@ -3,12 +3,12 @@
 \docType{data}
 \name{aphids}
 \alias{aphids}
-\title{Counts of aphids.}
+\title{Counts of aphids}
 \format{
 A data frame with 63 rows and 3 variables:
 \tabular{lll}{
     [, 1:2] \tab x,y   \tab Grid spatial coordinates. \cr
-    [, 3:4] \tab xm,ym \tab Metric spatial coordonates. \cr
+    [, 3:4] \tab xm,ym \tab Metric spatial coordinates. \cr
     [, 5]   \tab i     \tab Counts of aphids. \cr
 }
 }

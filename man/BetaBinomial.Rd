@@ -6,7 +6,7 @@
 \alias{pbetabinom}
 \alias{qbetabinom}
 \alias{rbetabinom}
-\title{The beta-binomial distribution.}
+\title{The beta-binomial distribution}
 \usage{
 dbetabinom(x, size, prob, theta, shape1, shape2, log = FALSE)
 

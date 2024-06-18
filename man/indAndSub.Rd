@@ -13,7 +13,7 @@ sub2ind(sub, .dim)
 \arguments{
 \item{ind}{Vector indices.}
 
-\item{.dim}{\code{\link[base]{dim}(.)} integer vector}
+\item{.dim}{\code{\link[base]{dim}(.)} integer vector.}
 
 \item{.dimnames}{optional list of character \code{\link[base]{dimnames}(.)}.
    If \code{useNames} is true, to be used for constructing dimnames for

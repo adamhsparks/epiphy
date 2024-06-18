@@ -3,11 +3,11 @@
 \docType{data}
 \name{codling_moths}
 \alias{codling_moths}
-\title{Count of codling moth larvae.}
+\title{Count of codling moth larvae}
 \format{
 A data frame with 30 rows and 3 variables:
 \tabular{lll}{
-    [, 1:2] \tab x,y \tab Metric spatial coordonates. \cr
+    [, 1:2] \tab x,y \tab Metric spatial coordinates. \cr
     [, 3]   \tab i   \tab Counts of codling moth larvae. \cr
 }
 }

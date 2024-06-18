@@ -6,7 +6,7 @@
 \alias{mapcomp.matrix}
 \alias{mapcomp.count}
 \alias{mapcomp.incidence}
-\title{Map Comparison procedure.}
+\title{Map Comparison procedure}
 \usage{
 mapcomp(data, ...)
 

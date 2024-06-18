@@ -3,7 +3,7 @@
 \docType{data}
 \name{onion_bacterial_blight}
 \alias{onion_bacterial_blight}
-\title{Incidence of bacterial blight of onion.}
+\title{Incidence of bacterial blight of onion}
 \format{
 A data frame with 1134 rows and 5 variables:
 \tabular{rll}{

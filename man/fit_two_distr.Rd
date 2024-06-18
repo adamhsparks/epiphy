@@ -6,7 +6,7 @@
 \alias{fit_two_distr.count}
 \alias{fit_two_distr.incidence}
 \title{Maximum likelihood fitting of two distributions and goodness-of-fit
-comparison.}
+comparison}
 \usage{
 fit_two_distr(data, ...)
 

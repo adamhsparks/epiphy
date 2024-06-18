@@ -3,7 +3,7 @@
 \docType{data}
 \name{dogwood_anthracnose}
 \alias{dogwood_anthracnose}
-\title{Incidence of dogwood anthracnose.}
+\title{Incidence of dogwood anthracnose}
 \format{
 A data frame with 329 rows and 3 variables:
 \tabular{rll}{

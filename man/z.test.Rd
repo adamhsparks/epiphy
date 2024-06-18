@@ -4,7 +4,7 @@
 \alias{z.test}
 \alias{z.test.default}
 \alias{z.test.fisher}
-\title{Z-test.}
+\title{Z-test}
 \usage{
 z.test(x, ...)
 

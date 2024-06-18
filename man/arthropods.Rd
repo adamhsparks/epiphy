@@ -3,12 +3,12 @@
 \docType{data}
 \name{arthropods}
 \alias{arthropods}
-\title{Counts of arthropods.}
+\title{Counts of arthropods}
 \format{
 A data frame with 378 rows and 4 variables:
 \tabular{lll}{
     [, 1:2] \tab x,y   \tab Grid spatial coordinates. \cr
-    [, 3:4] \tab xm,ym \tab Metric spatial coordonates. \cr
+    [, 3:4] \tab xm,ym \tab Metric spatial coordinates. \cr
     [, 5]   \tab t     \tab Sampling date. 1: 7 Jun, 2: 14 Jun, 3: 21 Jun, 4:
                             28 Jun, 5: 5 Jul, 6: 12 Jul 1996. \cr
     [, 6]   \tab i     \tab Counts of arthropods. \cr

@@ -26,7 +26,7 @@ droplevels.list <- function(x, except = NULL, ...) {
 }
 
 #------------------------------------------------------------------------------#
-#' Some link functions.
+#' Some link functions
 #'
 #' Logit, probit and cloglog functions are available.
 #' The logit and the logistic (with rev = TRUE), i.e. the inverse-logit functions.

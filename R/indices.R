@@ -8,7 +8,7 @@ NULL
 #==============================================================================#
 
 #------------------------------------------------------------------------------#
-#' Several aggregation indices.
+#' Several aggregation indices
 #'
 #' This function can compute different aggregation indices. See "Details"
 #' section for more information about the available indices.
@@ -302,7 +302,7 @@ morisita.incidence <- function(x, ...) {
 #==============================================================================#
 
 #------------------------------------------------------------------------------#
-#' Chi-squared test.
+#' Chi-squared test
 #'
 #' Performs chi-squared tests for Fisher's aggregation indices (computed with
 #' either count or incidence data). If another kind of data is provided, the R
@@ -381,7 +381,7 @@ chisq.test.fisher <- function(x, ...) {
 }
 
 #------------------------------------------------------------------------------#
-#' Z-test.
+#' Z-test
 #'
 #' Performs z-tests for Fisher's aggregation indices (computed with either count
 #' or incidence data).
@@ -502,7 +502,7 @@ z.test.fisher <- function(x, alternative = c("two.sided", "less", "greater"),
 }
 
 #------------------------------------------------------------------------------#
-#' C(alpha) test.
+#' C(alpha) test
 #'
 #' The C(alpha) test is a test of the binomial distribution against the
 #' alternative of the beta-binomial distribution.

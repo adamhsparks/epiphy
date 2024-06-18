@@ -3,7 +3,7 @@
 \docType{data}
 \name{tomato_tswv}
 \alias{tomato_tswv}
-\title{Incidence of tomato spotted wilt virus (TSWV) disease in field trials.}
+\title{Incidence of tomato spotted wilt virus (TSWV) disease in field trials}
 \format{
 There are two data frames:
 

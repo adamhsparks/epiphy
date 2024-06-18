@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------#
-#' Map Comparison procedure.
+#' Map Comparison procedure
 #'
 #' \code{mapcomp} performs a spatial pattern analysis based on the calculation
 #' of a formal distance (the Hellinger distance) between the density map of

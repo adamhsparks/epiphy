@@ -3,7 +3,7 @@
 \docType{data}
 \name{simulated_epidemics}
 \alias{simulated_epidemics}
-\title{Examples of simulated epidemic data.}
+\title{Examples of simulated epidemic data}
 \format{
 A data frame with 864 rows and 6 variables:
 \tabular{rll}{

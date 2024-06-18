@@ -4,7 +4,7 @@
 \alias{a2a}
 \alias{a2a.numeric}
 \alias{a2a.list}
-\title{Easily switch between different power law formulations.}
+\title{Easily switch between different power law formulations}
 \usage{
 a2a(x, ...)
 
@@ -32,7 +32,7 @@ parameter to be converted ("Ai", "ai", "AI" or "aI"), the slope
 
 \item{from}{Kind of the input intercept parameter ("Ai", "ai", "AI" or "aI").}
 
-\item{to}{Desired kind for the ouput intercept parameter ("Ai", "ai", "AI" or
+\item{to}{Desired kind for the output intercept parameter ("Ai", "ai", "AI" or
 "aI").}
 }
 \value{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{offspring_survival}
 \alias{offspring_survival}
-\title{Offspring survival of rats experiencing different diets.}
+\title{Offspring survival of rats experiencing different diets}
 \format{
 A data frame with 32 rows and 3 variables:
 \tabular{rll}{

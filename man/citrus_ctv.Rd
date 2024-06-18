@@ -3,7 +3,7 @@
 \docType{data}
 \name{citrus_ctv}
 \alias{citrus_ctv}
-\title{Incidence of citrus tristeza virus (CTV) disease in three fields.}
+\title{Incidence of citrus tristeza virus (CTV) disease in three fields}
 \format{
 There are three data frames:
 \itemize{

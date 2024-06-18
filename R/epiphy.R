@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------#
-#' \CRANpkg{epiphy}: An R package to analyze plant disease epidemics.
+#' \CRANpkg{epiphy}: An R package to analyze plant disease epidemics
 #'
 #' \CRANpkg{epiphy} makes it easy to analyze plant disease epidemics. It provides
 #' a common framework for plant disease intensity data recorded over time and/or
@@ -26,7 +26,6 @@
 #'
 #' @keywords internal
 #'
-#' @docType package
 #' @name epiphy
 #' @useDynLib epiphy
 #'
@@ -37,7 +36,10 @@
 #' @importFrom methods is
 #' @importFrom utils head tail
 #------------------------------------------------------------------------------#
+## usethis namespace: start
+## usethis namespace: end
 NULL
+
 
 # TODO: Needed for checking process...
 utils::globalVariables(c("Number per sampling unit", "Frequency", "key",

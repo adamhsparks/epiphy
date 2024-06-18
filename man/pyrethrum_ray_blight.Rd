@@ -3,7 +3,7 @@
 \docType{data}
 \name{pyrethrum_ray_blight}
 \alias{pyrethrum_ray_blight}
-\title{Incidence of ray blight disease of pyrethrum.}
+\title{Incidence of ray blight disease of pyrethrum}
 \format{
 A data frame with 62 rows and 2 variables:
 \tabular{rll}{

@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------#
-#' Incidence of tomato spotted wilt virus (TSWV) disease in field trials.
+#' Incidence of tomato spotted wilt virus (TSWV) disease in field trials
 #'
 #' Intensively mapped TSWV incidence data reported by Cochran (1936) and Bald
 #' (1937). The disease assessments were performed in field trials at the Waite
@@ -62,7 +62,7 @@
 "tomato_tswv"
 
 #------------------------------------------------------------------------------#
-#' Incidence of citrus tristeza virus (CTV) disease in three fields.
+#' Incidence of citrus tristeza virus (CTV) disease in three fields
 #'
 #' CTV incidence data for three orchards in eastern Spain reported for
 #' consecutive years.
@@ -105,7 +105,7 @@
 "citrus_ctv"
 
 #------------------------------------------------------------------------------#
-#' Incidence of three viruses in an Australian hop garden.
+#' Incidence of three viruses in an Australian hop garden
 #'
 #' Three viruses, i.e. Hop latent virus (HpLV), Hop mosaic virus (HpMV), and
 #' Apple mosaic virus (ApMV), were monitored in an Australian hop garden for two
@@ -138,7 +138,7 @@
 "hop_viruses"
 
 #------------------------------------------------------------------------------#
-#' Incidence of bacterial blight of onion.
+#' Incidence of bacterial blight of onion
 #'
 #' Assessments of bacterial blight of onion at two dates. The experimental plot
 #' was sown with naturally X. axonopodis pv. allii-contaminated onion (A. cepa
@@ -165,7 +165,7 @@
 "onion_bacterial_blight"
 
 #------------------------------------------------------------------------------#
-#' Examples of simulated epidemic data.
+#' Examples of simulated epidemic data
 #'
 #' Epidemics were generated using the stochastic simulator from Xu and Madden
 #' (2004). The data consist of the numbers of diseased plants per sampling
@@ -193,7 +193,7 @@
 "simulated_epidemics"
 
 #------------------------------------------------------------------------------#
-#' Incidence of tobacco plants infected with viruses.
+#' Incidence of tobacco plants infected with viruses
 #'
 #' Experimental plot consisted of 75 sampling units with 40 tobacco plants in
 #' each one.
@@ -213,7 +213,7 @@
 "tobacco_viruses"
 
 #------------------------------------------------------------------------------#
-#' Incidence of dogwood anthracnose.
+#' Incidence of dogwood anthracnose
 #'
 #' Incidence data from the Dogwood Anthracnose Impact Assessment Program for
 #' 1990 and 1991, in the Southeast of the USA, reported by Zarnoch et al (1995).
@@ -237,7 +237,7 @@
 "dogwood_anthracnose"
 
 #------------------------------------------------------------------------------#
-#' Incidence of ray blight disease of pyrethrum.
+#' Incidence of ray blight disease of pyrethrum
 #'
 #' An assessment of the incidence of ray blight disease of pyrethrum in 62
 #' sampling units, containing 6 plants each.
@@ -259,7 +259,7 @@
 "pyrethrum_ray_blight"
 
 #------------------------------------------------------------------------------#
-#' Counts of aphids.
+#' Counts of aphids
 #'
 #' Counts of 554 aphids of the species Sitobion avenae, sampled on 28 June 1996
 #' in a 250 x 180-m field of winter wheat near Wimborne, Dorset, UK. The 63
@@ -269,7 +269,7 @@
 #' @format A data frame with 63 rows and 3 variables:
 #' \tabular{lll}{
 #'     [, 1:2] \tab x,y   \tab Grid spatial coordinates. \cr
-#'     [, 3:4] \tab xm,ym \tab Metric spatial coordonates. \cr
+#'     [, 3:4] \tab xm,ym \tab Metric spatial coordinates. \cr
 #'     [, 5]   \tab i     \tab Counts of aphids. \cr
 #' }
 #'
@@ -282,7 +282,7 @@
 "aphids"
 
 #------------------------------------------------------------------------------#
-#' Counts of arthropods.
+#' Counts of arthropods
 #'
 #' A sampling unit was made of a pitfall to collect arthropods in a field of
 #' organic winter wheat, near Wimborne, Dorset, UK in 1996. The sampling units
@@ -292,7 +292,7 @@
 #' @format A data frame with 378 rows and 4 variables:
 #' \tabular{lll}{
 #'     [, 1:2] \tab x,y   \tab Grid spatial coordinates. \cr
-#'     [, 3:4] \tab xm,ym \tab Metric spatial coordonates. \cr
+#'     [, 3:4] \tab xm,ym \tab Metric spatial coordinates. \cr
 #'     [, 5]   \tab t     \tab Sampling date. 1: 7 Jun, 2: 14 Jun, 3: 21 Jun, 4:
 #'                             28 Jun, 5: 5 Jul, 6: 12 Jul 1996. \cr
 #'     [, 6]   \tab i     \tab Counts of arthropods. \cr
@@ -307,7 +307,7 @@
 "arthropods"
 
 #------------------------------------------------------------------------------#
-#' Count of codling moth larvae.
+#' Count of codling moth larvae
 #'
 #' Codling moth diapausing larvae were collected in an apple orchard in
 #' south-eastern France. Larvae were caught on strip traps wrapped around tree
@@ -315,7 +315,7 @@
 #'
 #' @format A data frame with 30 rows and 3 variables:
 #' \tabular{lll}{
-#'     [, 1:2] \tab x,y \tab Metric spatial coordonates. \cr
+#'     [, 1:2] \tab x,y \tab Metric spatial coordinates. \cr
 #'     [, 3]   \tab i   \tab Counts of codling moth larvae. \cr
 #' }
 #'
@@ -329,7 +329,7 @@
 "codling_moths"
 
 #------------------------------------------------------------------------------#
-#' Offspring survival of rats experiencing different diets.
+#' Offspring survival of rats experiencing different diets
 #'
 #' Results of an experiment where two groups of 16 female rats were fed
 #' different diets during pregnancy and lactation periods. One group's diet

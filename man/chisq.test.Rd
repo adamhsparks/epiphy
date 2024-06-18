@@ -4,7 +4,7 @@
 \alias{chisq.test}
 \alias{chisq.test.default}
 \alias{chisq.test.fisher}
-\title{Chi-squared test.}
+\title{Chi-squared test}
 \usage{
 chisq.test(x, ...)
 

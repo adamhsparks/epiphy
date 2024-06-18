@@ -2,7 +2,7 @@
 % Please edit documentation in R/indices.R
 \name{agg_index}
 \alias{agg_index}
-\title{Several aggregation indices.}
+\title{Several aggregation indices}
 \usage{
 agg_index(
   x,

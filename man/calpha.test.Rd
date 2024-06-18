@@ -3,7 +3,7 @@
 \name{calpha.test}
 \alias{calpha.test}
 \alias{calpha.test.fisher}
-\title{C(alpha) test.}
+\title{C(alpha) test}
 \usage{
 calpha.test(x, ...)
 

@@ -8,7 +8,7 @@
 \alias{incidence_data}
 \alias{severity}
 \alias{severity_data}
-\title{Construct count, incidence and severity objects.}
+\title{Construct count, incidence and severity objects}
 \usage{
 count(data, mapping, keep_only_std = TRUE)
 
@@ -23,7 +23,7 @@ entry).}
 \item{mapping}{A \code{mapping} object, created with \code{mapping()} or
   \code{mapping_()} functions. ... A vector with all the corresponding variables. The different
 elements can be named (names of the elements) of the data frame in the
-incidence object), or unamed. In the latter case, elements must be
+incidence object), or unnamed. In the latter case, elements must be
 correctly ordered, i.e. x, y, z, t, r and then n. If variables in NULL,
 then only the 6 first ... will be take into account in the following (1, 2,
 ...), i.e. the id of the value. All the 'parameters' need to be specified.}
@@ -42,10 +42,10 @@ When printed, difference information are available:
     \item The time.
     \item Is it georeferenced (TRUE/FALSE)
     \item Are there any NA data (TRUE/FALSE)
-    \item Is it a complet array (TRUE/FALSE)? A complete array means that all the recorded values allow to
-    display an array (even if some data are not available), but this was explicitelly specified. To
+    \item Is it a complete array (TRUE/FALSE)? A complete array means that all the recorded values allow to
+    display an array (even if some data are not available), but this was explicitly specified. To
     complete a dataset, just use \code{complete(data)}. You can also remove NA, which is necessary to use
-    some analysis technics, using \code{replaceNA(data)} or \code{replace.na(data)}. Note that using both
+    some analysis techniques, using \code{replaceNA(data)} or \code{replace.na(data)}. Note that using both
     commands will results in modifying the original data sets which will be specified.
 }
 }
@@ -58,7 +58,7 @@ The choice of the class depends on the nature of the data set.
 \code{incidence} reads disease incidence data from a data frame and return an
 incidence object. All of these classes inherit from \code{intensity} class.
 \itemize{
-    \item count: Each sampling unit contains from 0 to theoreticaly an infinity of data.
+    \item count: Each sampling unit contains from 0 to theoretically an infinity of data.
     Number are positive integers.
     \item incidence: Each sampling unit contains an number of diseased plants,
     ranging from 0 to \code{n} which is the total amount of plants per sampling
@@ -120,7 +120,7 @@ this point.
 }
 \examples{
 ## Create intensity objects
-# Implicite call: The variable mapping does not need to be specified if the
+# Implicit call: The variable mapping does not need to be specified if the
 # column names of the input data frame follow the default names.
 colnames(tomato_tswv$field_1929) # Returns c("x", "y", "t", "i", "n")
 my_incidence_1 <- incidence(tomato_tswv$field_1929)

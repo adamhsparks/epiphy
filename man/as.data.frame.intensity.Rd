@@ -2,7 +2,7 @@
 % Please edit documentation in R/intensity-classes.R
 \name{as.data.frame.intensity}
 \alias{as.data.frame.intensity}
-\title{Coerce to a data frame.}
+\title{Coerce to a data frame}
 \usage{
 \method{as.data.frame}{intensity}(
   x,
@@ -35,7 +35,7 @@
 A data frame.
 }
 \description{
-Functions to coerce an \code{intensity} object to a data frame.
+Functions to coerce an \code{intensity} object to a data frame
 }
 \examples{
 my_data <- incidence(tomato_tswv$field_1929)

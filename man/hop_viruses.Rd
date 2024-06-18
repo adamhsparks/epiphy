@@ -3,7 +3,7 @@
 \docType{data}
 \name{hop_viruses}
 \alias{hop_viruses}
-\title{Incidence of three viruses in an Australian hop garden.}
+\title{Incidence of three viruses in an Australian hop garden}
 \format{
 There are three data frames, one for each virus (\code{HpLV}, \code{HpMV} and
 \code{ApMV}). Each data frame consists of 2550 rows and 7 variables:

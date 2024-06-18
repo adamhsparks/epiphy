@@ -8,7 +8,7 @@ NULL
 
 #------------------------------------------------------------------------------#
 #' Maximum likelihood fitting of two distributions and goodness-of-fit
-#' comparison.
+#' comparison
 #'
 #' Different distributions may be used depending on the kind of provided data.
 #' By default, the Poisson and negative binomial distributions are fitted to
